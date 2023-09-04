@@ -42,7 +42,7 @@
                                     <mainClass>hello.HelloWorld</mainClass>
                                 </transformer>
                             </transformers>
-                        </configuration>
+                        </configuratin>
                     </execution>
                 </executions>
             </plugin>
