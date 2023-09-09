@@ -6,5 +6,10 @@ pipeline {
                 git credentialsId: 'github', url: 'git@github.com:omeshvalyal/new_project.git'
             }
         }
+stage('shell execution') {
+            steps {
+                sh 'hello.sh'
+            }
+        }
     }
 }
