@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('repository checkout') {
+            steps {
+                git credentialsId: 'github', url: 'git@github.com:omeshvalyal/new_project.git'
+            }
+        }
+    }
+}
