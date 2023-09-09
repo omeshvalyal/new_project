@@ -1,0 +1,1 @@
+echo "welcom to jenkins"
