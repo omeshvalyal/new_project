@@ -2,7 +2,7 @@
 
 repo_url="git@github.com:omeshvalyal/new_project.git"
 local_clone_path="/var/lib/jenkins/my_space"
-source_branch_name="main"
+source_branch_name="master"
 # current_version="release/$2"
 # echo "source_branch_name: $source_branch_name"
 # echo "current_version: $current_version"
