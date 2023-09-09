@@ -8,7 +8,7 @@ pipeline {
         }
 stage('shell execution') {
             steps {
-                sh '/var/lib/jenkins/workspace/shell-pipeline'
+                sh 'cd /var/lib/jenkins/workspace/shell-pipeline'
                 sh 'hello.sh'
             }
         }
