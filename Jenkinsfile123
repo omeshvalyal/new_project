@@ -10,7 +10,7 @@ stage('shell execution') {
             steps {
                 sh 'cd /var/lib/jenkins/workspace/shell-pipeline'
                 sh 'chmod 700 hello.sh'
-                sh 'hello.sh'
+                sh './hello.sh'
             }
         }
     }
