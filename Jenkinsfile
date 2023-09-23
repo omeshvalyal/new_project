@@ -17,5 +17,15 @@ pipeline{
                sh 'mvn package'
             }
         }
-    }
+// stage('Upload to S3') {
+  //          steps {
+      //          script {
+    //    withCredentials([<object of type com.cloudbees.jenkins.plugins.awscredentials.AmazonWebServicesCredentialsBinding>])
+        //            def s3cmd = """
+          //              aws s3 cp $artifactPath s3://your-s3-bucket-name/ --recursive
+            //        """
+              //      sh s3cmd
+                //}
+            //}
+        }
 }
